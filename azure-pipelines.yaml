@@ -11,8 +11,9 @@ steps:
     azureSubscription: 'Azure subscription 1(005ccd00-654a-48a2-a3ef-ee990b504e9b)'
     KeyVaultName: 'project4az'
 
-    SecretsFilter: '*' # 'APIkey'
+     SecretsFilter: '*' #'APIkey'
     RunAsPreJob: false
+
 
 - task: CmdLine@2
   displayName: Write Secret into File
